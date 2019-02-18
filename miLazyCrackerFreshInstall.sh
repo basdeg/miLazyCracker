@@ -24,7 +24,7 @@ sudo apt-get install git libnfc-bin autoconf libnfc-dev
 )
 
 # install Hardnested Attack Tool
-[ -d crypto1_bs ] || git clone https://github.com/aczid/crypto1_bs
+[ -d crypto1_bs ] || git clone https://github.com/basdeg/crypto1_bs
 (
     cd crypto1_bs || exit 1
     git reset --hard
