@@ -6,8 +6,9 @@ Installation:
 ./miLazyCrackerFreshInstall.sh
 ```
 
-Unbind the drivers for other applications::
-```modprobe -r pn533_usb
+Unbind the drivers for other applications:
+```bash
+modprobe -r pn533_usb
 modprobe -r pn533
 ```
 
