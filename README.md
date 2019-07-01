@@ -24,9 +24,9 @@ Now unplug the RFID reader, and connect it again (IMPORTANT STEP)
 
 Youre done ;) 
 
-
-
-
+_
+_
+-
 
 Usage example: place a tag and enjoy
 ```bash
