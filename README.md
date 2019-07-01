@@ -24,6 +24,10 @@ Now unplug the RFID reader, and connect it again (IMPORTANT STEP)
 
 Youre done ;) 
 
+
+
+
+
 Usage example: place a tag and enjoy
 ```bash
 mkdir mydumps
