@@ -6,12 +6,23 @@ Installation:
 ./miLazyCrackerFreshInstall.sh
 ```
 
-Unbind the drivers for other applications:
+Extra steps to make it work:
 ```bash
 modprobe -r pn533_usb
 modprobe -r pn533
+nano /etc/modprobe.d/blacklist-libnfc.conf
 ```
 
+Make sure the file contains and save it
+```
+blacklist nfc
+blacklist pn533
+blacklist pn533_usb
+```
+
+Now unplug the RFID reader, and connect it again (IMPORTANT STEP) 
+
+Youre done ;) 
 
 Usage example: place a tag and enjoy
 ```bash
